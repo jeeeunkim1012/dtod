@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.qna_container{
+    margin-bottom: 5rem;
+}
+
+.accordion{
+    margin-top: 50px;
+}
+
+#qna_wrap{
+    background-color: #0F1A25;
+}
+
+#qna_wrap .nav-tabs .nav-item .nav-link{
+    height: 40px;
+    line-height: 40px;
+}
+#qna_wrap .nav-tabs .nav-item .nav-link.active{
+    color: #0F1A25 !important;
+}
+.accordion-item{
+    border-color:white;
+}
+.accordion-button{
+    background-color: #E1D9E4 !important;
+    font-weight: bold !important;
+    font-family: 'Pretendard-Regular';
+    color: #0F1A25 !important;
+    border-color: white !important;
+}
+.accordion-body{
+    background-color: white;
+    font-weight: bold !important;
+    font-family: 'Pretendard-Regular';
+    color: #0F1A25 ;
+}
+.qna_container{
+    background-color: #0F1A25;
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.accordion-button:not(.collapsed){
+    background-color: #E1D9E4;
+    color: #0F1A25;
+    border-bottom: 1px solid white;
+}
+.accordion-button:focus{
+    /* border: 2px solid white; */
+    box-shadow: none !important;
+}
+.nav-item > a{
+   color: white;
+}
+.nav a:hover{
+    color: #0F1A25;
+}
+.nav-link.active{
+    background-color: #E1D9E4 !important;
+}
+.nav-item:hover{
+    background-color: white;
+    border-radius: 6px 6px 0 0;
+    color: #0F1A25;
+}
+/* 
+리액트 부트스트랩 실행 웹사이트에서 요소 선택 확인 후
+아코디언 첫번째 제목 버튼 클릭 시 변화되는 배경색을 변경합니다.
+*/
+/* 
+.accordion-button:not(.collapsed){
+    background-color: lightpink !important;
+}
+*/
+
+
